@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tadeas/prusa/dubai-boards/Buddy_shield_extractor/0.2.0_edition/Buddy_shield_extractor.kicad_sch</source>
+    <date>Thu Jul 28 13:36:38 2022</date>
+    <tool>Eeschema 6.0.6-3a73a75311~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Buddy_shield_extractor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>0.1</rev>
+        <date/>
+        <source>shield.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>StepSticks.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>ConnTHT_01x03_70543-0002</value>
+      <footprint>prusa_con:MX-70543-0002</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</datasheet>
+      <fields>
+        <field name="ID">5489</field>
+        <field name="part_value">MX-70543-0002</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x03_70543-0002" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX-70543-0002"/>
+      <property name="ID" value="5489"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2a3061-f479-43cf-b9b1-a214107b22b2</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>ConnTHT_01x02_70543-0001</value>
+      <footprint>prusa_con:MX-70543-0001</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252b3K3gi96X</datasheet>
+      <fields>
+        <field name="ID">5488</field>
+        <field name="part_value">MX 70543-0001</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x02_70543-0001" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0001"/>
+      <property name="ID" value="5488"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8069e918-d80b-472c-8737-dc7b8b8f6b20</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>ConnTHT_01x02_70543-0001</value>
+      <footprint>prusa_con:MX-70543-0001</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252b3K3gi96X</datasheet>
+      <fields>
+        <field name="ID">5488</field>
+        <field name="part_value">MX 70543-0001</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x02_70543-0001" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0001"/>
+      <property name="ID" value="5488"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1651d360-057c-49bf-a4ed-01e47dc80fc4</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x05</value>
+      <footprint>buddy_shield:PCF8575_module</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd44a3fb-6fe1-46d3-98b3-6d3298ed4788</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>ConnTHT_01x04_70543-0003</value>
+      <footprint>prusa_con:MX-70543-0003</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</datasheet>
+      <fields>
+        <field name="ID">5487</field>
+        <field name="part_value">MX 70543-0003</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x04_70543-0003" description=""/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0003"/>
+      <property name="ID" value="5487"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3eb7da62-02f4-47cc-b2bb-b1b3d4c63fc5</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>ConnTHT_01x04_70543-0003</value>
+      <footprint>prusa_con:MX-70543-0003</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</datasheet>
+      <fields>
+        <field name="ID">5487</field>
+        <field name="part_value">MX 70543-0003</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x04_70543-0003" description=""/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0003"/>
+      <property name="ID" value="5487"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ced8d0d-ffed-4c97-af31-dbdfe1efeb12</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>ConnTHT_01x04_70543-0003</value>
+      <footprint>prusa_con:MX-70543-0003</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</datasheet>
+      <fields>
+        <field name="ID">5487</field>
+        <field name="part_value">MX 70543-0003</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x04_70543-0003" description=""/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0003"/>
+      <property name="ID" value="5487"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cd21c5a-4cd7-42a0-96be-d3c8406d5a35</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>ConnTHT_01x03_70543-0002</value>
+      <footprint>prusa_con:MX-70543-0002</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</datasheet>
+      <fields>
+        <field name="ID">5489</field>
+        <field name="part_value">MX-70543-0002</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x03_70543-0002" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX-70543-0002"/>
+      <property name="ID" value="5489"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f1e48af-e288-4659-a1db-dbaed8787f43</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>ConnTHT_01x03_70543-0002</value>
+      <footprint>prusa_con:MX-70543-0002</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</datasheet>
+      <fields>
+        <field name="ID">5489</field>
+        <field name="part_value">MX-70543-0002</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x03_70543-0002" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX-70543-0002"/>
+      <property name="ID" value="5489"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7134c948-7bc4-4c6d-8563-504602c88463</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>ConnTHT_01x03_70543-0002</value>
+      <footprint>prusa_con:MX-70543-0002</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</datasheet>
+      <fields>
+        <field name="ID">5489</field>
+        <field name="part_value">MX-70543-0002</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x03_70543-0002" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX-70543-0002"/>
+      <property name="ID" value="5489"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bb51754-b47b-4539-bfa2-fce90272ebc9</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>ConnTHT_01x03_70543-0002</value>
+      <footprint>prusa_con:MX-70543-0002</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</datasheet>
+      <fields>
+        <field name="ID">5489</field>
+        <field name="part_value">MX-70543-0002</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x03_70543-0002" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX-70543-0002"/>
+      <property name="ID" value="5489"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecc0af96-b5f4-47df-ab7a-18e9bb91c056</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>ConnTHT_01x03_70543-0002</value>
+      <footprint>prusa_con:MX-70543-0002</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</datasheet>
+      <fields>
+        <field name="ID">5489</field>
+        <field name="part_value">MX-70543-0002</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x03_70543-0002" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX-70543-0002"/>
+      <property name="ID" value="5489"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01f47fb7-bed0-458d-92ae-31e2002f37fc</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>ConnTHT_01x03_70543-0002</value>
+      <footprint>prusa_con:MX-70543-0002</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</datasheet>
+      <fields>
+        <field name="ID">5489</field>
+        <field name="part_value">MX-70543-0002</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x03_70543-0002" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX-70543-0002"/>
+      <property name="ID" value="5489"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fa5d6b3-fd7e-44e1-b8ec-81fda95994bf</tstamps>
+    </comp>
+    <comp ref="J26">
+      <value>ConnTHT_01x02_70543-0001</value>
+      <footprint>prusa_con:MX-70543-0001</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252b3K3gi96X</datasheet>
+      <fields>
+        <field name="ID">5488</field>
+        <field name="part_value">MX 70543-0001</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x02_70543-0001" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0001"/>
+      <property name="ID" value="5488"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>351455c4-d46b-4abd-9991-02e78ebe57bb</tstamps>
+    </comp>
+    <comp ref="J27">
+      <value>ConnTHT_01x02_70543-0001</value>
+      <footprint>prusa_con:MX-70543-0001</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252b3K3gi96X</datasheet>
+      <fields>
+        <field name="ID">5488</field>
+        <field name="part_value">MX 70543-0001</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x02_70543-0001" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0001"/>
+      <property name="ID" value="5488"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae94cbe1-59df-43df-8c42-1c93d0660db9</tstamps>
+    </comp>
+    <comp ref="J28">
+      <value>ConnTHT_01x02_70543-0001</value>
+      <footprint>prusa_con:MX-70543-0001</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252b3K3gi96X</datasheet>
+      <fields>
+        <field name="ID">5488</field>
+        <field name="part_value">MX 70543-0001</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x02_70543-0001" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0001"/>
+      <property name="ID" value="5488"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5998db1-8152-4ed4-915d-4ead6ac32c9b</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8997e74d-41ed-478d-8198-6c7b9984f27a</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Buddy_shield_extractor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d53983a2-9487-453f-af56-30febc1827ac</tstamps>
+    </comp>
+    <comp ref="A1">
+      <value>Conn_01x10</value>
+      <footprint>buddy_shield:Conn_THR_0x10_2.00mm_0.9</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>00000000-0000-0000-0000-0000609f4bef</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.digikey.cz/product-detail/en/sullins-connector-solutions/PPPC041LFBN-RC/S7037-ND/810176</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>00000000-0000-0000-0000-000060087f2f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x04_Counter_Clockwise</value>
+      <footprint>harvester:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.digikey.cz/product-detail/cs/harwin-inc/M20-9980445/952-2122-ND/3728086</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>00000000-0000-0000-0000-000060087492</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x07_Counter_Clockwise</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.digikey.cz/product-detail/en/adam-tech/RS2-14-G/2057-RS2-14-G-ND/9832048</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>00000000-0000-0000-0000-000060089509</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x01</value>
+      <footprint>buddy_shield:Conn_PinSocket_0x01_5.08mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>24377ae5-3f32-4995-ab62-d6c883cf405d</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x01</value>
+      <footprint>harvester:smt-spacer-M3x12mm-9774120360R</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Wurth-Elektronik/9774120960R?qs=wr8lucFkNMXsPLUC0UVYng%3D%3D</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>00000000-0000-0000-0000-0000616b4061</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x01</value>
+      <footprint>harvester:smt-spacer-M3x12mm-9774120360R</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Wurth-Elektronik/9774120960R?qs=wr8lucFkNMXsPLUC0UVYng%3D%3D</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>00000000-0000-0000-0000-0000616b4067</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02</value>
+      <footprint>buddy_shield:Conn_PinSocket_0x02_5.08mm</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Samtec/PSS-02-01-T-S?qs=rU5fayqh%252BE33puiMfR3ucw%3D%3D</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>00000000-0000-0000-0000-0000609f4bf8</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x01</value>
+      <footprint>harvester:smt-spacer-M3x12mm-9774120360R</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Wurth-Elektronik/9774120960R?qs=wr8lucFkNMXsPLUC0UVYng%3D%3D</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>00000000-0000-0000-0000-0000616b405b</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_02x05_Odd_Even_JTAG</value>
+      <footprint>prusa_con:PinHeader_2x05_P1.27mm_Vertical_SMD</footprint>
+      <datasheet>https://www.tme.eu/cz/details/zl322-2x5p/konektory-hrebinky/connfly/ds1031-08-2-5p8bs-4-1/</datasheet>
+      <fields>
+        <field name="ID">6183</field>
+        <field name="part_value">DS1031-08-2-5P8BS-4-1</field>
+        <field name="req">2x5_pinheader/SMT/1,27mm</field>
+      </fields>
+      <libsource lib="prusa_con" part="Conn_02x05_Odd_Even_JTAG" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="part_value" value="DS1031-08-2-5P8BS-4-1"/>
+      <property name="ID" value="6183"/>
+      <property name="req" value="2x5_pinheader/SMT/1,27mm"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>c930ae86-11a0-4312-9ee1-6bc492e71ef3</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.digikey.cz/en/products/detail/adam-tech/RS1-06-G/9832050</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>0c62e837-822c-447c-8366-3ad6529e6942</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>c7a38d37-df81-4554-a073-ab9058791096</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="shield"/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/shield/" tstamps="/00000000-0000-0000-0000-000060eaac54/"/>
+      <tstamps>22fbaf76-8934-4a19-91a5-8924875e36a4</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>C_100u_35V_20%_6,3x7,7</value>
+      <footprint>prusa_other:c_elec_6.3x7.7</footprint>
+      <datasheet>https://www.digikey.cz/product-detail/cs/united-chemi-con/EMVA350ADA101MF80G/565-2119-2-ND/756766</datasheet>
+      <fields>
+        <field name="ID">6060</field>
+        <field name="part_value">100u</field>
+        <field name="req">35V/20%</field>
+      </fields>
+      <libsource lib="prusa_other" part="C_100u_35V_20%_6,3x7,7" description=""/>
+      <property name="req" value="35V/20%"/>
+      <property name="part_value" value="100u"/>
+      <property name="ID" value="6060"/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>00000000-0000-0000-0000-000060d2896c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C_100u_35V_20%_6,3x7,7</value>
+      <footprint>prusa_other:c_elec_6.3x7.7</footprint>
+      <datasheet>https://www.digikey.cz/product-detail/cs/united-chemi-con/EMVA350ADA101MF80G/565-2119-2-ND/756766</datasheet>
+      <fields>
+        <field name="ID">6060</field>
+        <field name="part_value">100u</field>
+        <field name="req">35V/20%</field>
+      </fields>
+      <libsource lib="prusa_other" part="C_100u_35V_20%_6,3x7,7" description=""/>
+      <property name="req" value="35V/20%"/>
+      <property name="part_value" value="100u"/>
+      <property name="ID" value="6060"/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>00000000-0000-0000-0000-000060d29925</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C_100u_35V_20%_6,3x7,7</value>
+      <footprint>prusa_other:c_elec_6.3x7.7</footprint>
+      <datasheet>https://www.digikey.cz/product-detail/cs/united-chemi-con/EMVA350ADA101MF80G/565-2119-2-ND/756766</datasheet>
+      <fields>
+        <field name="ID">6060</field>
+        <field name="part_value">100u</field>
+        <field name="req">35V/20%</field>
+      </fields>
+      <libsource lib="prusa_other" part="C_100u_35V_20%_6,3x7,7" description=""/>
+      <property name="req" value="35V/20%"/>
+      <property name="part_value" value="100u"/>
+      <property name="ID" value="6060"/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>06c48dc1-d049-4bcf-a0a8-f9c51c358983</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C_100u_35V_20%_6,3x7,7</value>
+      <footprint>prusa_other:c_elec_6.3x7.7</footprint>
+      <datasheet>https://www.digikey.cz/product-detail/cs/united-chemi-con/EMVA350ADA101MF80G/565-2119-2-ND/756766</datasheet>
+      <fields>
+        <field name="ID">6060</field>
+        <field name="part_value">100u</field>
+        <field name="req">35V/20%</field>
+      </fields>
+      <libsource lib="prusa_other" part="C_100u_35V_20%_6,3x7,7" description=""/>
+      <property name="req" value="35V/20%"/>
+      <property name="part_value" value="100u"/>
+      <property name="ID" value="6060"/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>1883ff7a-5cfb-4ba9-aa94-3aadd495e719</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>ConnTHT_01x04_70543-0003</value>
+      <footprint>prusa_con:MX-70543-0003</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</datasheet>
+      <fields>
+        <field name="ID">5487</field>
+        <field name="part_value">MX 70543-0003</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x04_70543-0003" description=""/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0003"/>
+      <property name="ID" value="5487"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>fa85b873-24f9-4a03-ac04-efd1f5d95abe</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>ConnTHT_01x04_70543-0003</value>
+      <footprint>prusa_con:MX-70543-0003</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</datasheet>
+      <fields>
+        <field name="ID">5487</field>
+        <field name="part_value">MX 70543-0003</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x04_70543-0003" description=""/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0003"/>
+      <property name="ID" value="5487"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>006a4230-6c53-4851-b7f9-b4ef8bf6a086</tstamps>
+    </comp>
+    <comp ref="J29">
+      <value>ConnTHT_01x04_70543-0003</value>
+      <footprint>prusa_con:MX-70543-0003</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</datasheet>
+      <fields>
+        <field name="ID">5487</field>
+        <field name="part_value">MX 70543-0003</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x04_70543-0003" description=""/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0003"/>
+      <property name="ID" value="5487"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>f8db82e6-e649-4fe4-8e84-94fd3e351c6e</tstamps>
+    </comp>
+    <comp ref="J30">
+      <value>ConnTHT_01x04_70543-0003</value>
+      <footprint>prusa_con:MX-70543-0003</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</datasheet>
+      <fields>
+        <field name="ID">5487</field>
+        <field name="part_value">MX 70543-0003</field>
+        <field name="req">3A/250V/Straight</field>
+      </fields>
+      <libsource lib="prusa_con" part="ConnTHT_01x04_70543-0003" description=""/>
+      <property name="req" value="3A/250V/Straight"/>
+      <property name="part_value" value="MX 70543-0003"/>
+      <property name="ID" value="5487"/>
+      <property name="PnB" value=""/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>bca970fe-df04-4940-b355-4f8e001dc7ce</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>StepStick_TMC2209</value>
+      <footprint>harvester:StepStick_TMC2209</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Trinamic/TMC2209-SilentStepStick?qs=TiOZkKH1s2Q9Tw4q3k2mDw%3D%3D</datasheet>
+      <libsource lib="Buddy_shield_extractor-rescue" part="StepStick_TMC2209-dubai_specific_symbols" description=""/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>00000000-0000-0000-0000-000060cf9e3d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>StepStick_TMC2209</value>
+      <footprint>harvester:StepStick_TMC2209</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Trinamic/TMC2209-SilentStepStick?qs=TiOZkKH1s2Q9Tw4q3k2mDw%3D%3D</datasheet>
+      <libsource lib="Buddy_shield_extractor-rescue" part="StepStick_TMC2209-dubai_specific_symbols" description=""/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>00000000-0000-0000-0000-000060d0830c</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>StepStick_TMC2209</value>
+      <footprint>harvester:StepStick_TMC2209</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Trinamic/TMC2209-SilentStepStick?qs=TiOZkKH1s2Q9Tw4q3k2mDw%3D%3D</datasheet>
+      <libsource lib="Buddy_shield_extractor-rescue" part="StepStick_TMC2209-dubai_specific_symbols" description=""/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>c5505310-11e5-4954-9d01-7a713a83d6f7</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>StepStick_TMC2209</value>
+      <footprint>harvester:StepStick_TMC2209</footprint>
+      <datasheet>https://cz.mouser.com/ProductDetail/Trinamic/TMC2209-SilentStepStick?qs=TiOZkKH1s2Q9Tw4q3k2mDw%3D%3D</datasheet>
+      <libsource lib="Buddy_shield_extractor-rescue" part="StepStick_TMC2209-dubai_specific_symbols" description=""/>
+      <property name="Sheetname" value="StepSticks"/>
+      <property name="Sheetfile" value="StepSticks.kicad_sch"/>
+      <sheetpath names="/StepSticks/" tstamps="/00000000-0000-0000-0000-000060f8905a/"/>
+      <tstamps>28125cbf-09a5-4fd9-9ba1-728946622bfa</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Buddy_shield_extractor-rescue" part="StepStick_TMC2209-dubai_specific_symbols">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">StepStick_TMC2209-dubai_specific_symbols</field>
+        <field name="Footprint">harvester:StepStick_TMC2209</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VIO" type="input"/>
+        <pin num="3" name="M1B" type="output"/>
+        <pin num="4" name="M1A" type="output"/>
+        <pin num="5" name="M2A" type="output"/>
+        <pin num="6" name="M2B" type="output"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="VM" type="input"/>
+        <pin num="9" name="DIR" type="input"/>
+        <pin num="10" name="STEP" type="input"/>
+        <pin num="11" name="PND_UART1" type="input"/>
+        <pin num="12" name="PDN_UART2" type="input"/>
+        <pin num="13" name="SPREAD" type="input"/>
+        <pin num="14" name="MS2" type="input"/>
+        <pin num="15" name="MS1" type="input"/>
+        <pin num="16" name="EN" type="input"/>
+        <pin num="17" name="INDEX" type="input"/>
+        <pin num="18" name="DIAG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="prusa_con" part="ConnTHT_01x02_70543-0001">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://cz.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252b3K3gi96X</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ConnTHT_01x02_70543-0001</field>
+        <field name="Footprint">prusa_con:MX-70543-0001</field>
+        <field name="Datasheet">https://cz.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252b3K3gi96X</field>
+        <field name="req">3A/250V/Straight</field>
+        <field name="part_value">MX 70543-0001</field>
+        <field name="ID">5488</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="prusa_con" part="ConnTHT_01x03_70543-0002">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ConnTHT_01x03_70543-0002</field>
+        <field name="Footprint">prusa_con:MX-70543-0002</field>
+        <field name="Datasheet">https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d</field>
+        <field name="req">3A/250V/Straight</field>
+        <field name="part_value">MX-70543-0002</field>
+        <field name="ID">5489</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="prusa_con" part="ConnTHT_01x04_70543-0003">
+      <docs>https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ConnTHT_01x04_70543-0003</field>
+        <field name="Footprint">prusa_con:MX-70543-0003</field>
+        <field name="Datasheet">https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D</field>
+        <field name="req">3A/250V/Straight</field>
+        <field name="part_value">MX 70543-0003</field>
+        <field name="ID">5487</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="prusa_con" part="Conn_02x05_Odd_Even_JTAG">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://www.tme.eu/cz/details/zl322-2x5p/konektory-hrebinky/connfly/ds1031-08-2-5p8bs-4-1/</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even_JTAG</field>
+        <field name="Footprint">prusa_con:PinHeader_2x05_P1.27mm_Vertical_SMD</field>
+        <field name="Datasheet">https://www.tme.eu/cz/details/zl322-2x5p/konektory-hrebinky/connfly/ds1031-08-2-5p8bs-4-1/</field>
+        <field name="part_value">DS1031-08-2-5P8BS-4-1</field>
+        <field name="ID">6183</field>
+        <field name="req">2x5_pinheader/SMT/1,27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="prusa_other" part="C_100u_35V_20%_6,3x7,7">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_100u_35V_20%_6,3x7,7</field>
+        <field name="Footprint">prusa_other:c_elec_6.3x7.7</field>
+        <field name="req">35V/20%</field>
+        <field name="part_value">100u</field>
+        <field name="ID">6060</field>
+        <field name="alt">UWT1V101MCL1GS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Buddy_shield_extractor-rescue">
+      <uri>/home/tadeas/prusa/dubai-boards/Buddy_shield_extractor/0.2.0_edition/Buddy_shield_extractor-rescue.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="prusa_con">
+      <uri>/home/tadeas/prusa/kicad_lib/PrusaKicadLib/prusa-symbols/prusa_con.kicad_sym</uri>
+    </library>
+    <library logical="prusa_other">
+      <uri>/home/tadeas/prusa/kicad_lib/PrusaKicadLib/prusa-symbols/prusa_other.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="A1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="A1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J28" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIO" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="VIO" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="VIO" pintype="input"/>
+      <node ref="U4" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="U4" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="VIO" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J27" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="3" name="+24V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J26" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VM" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VM" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="VM" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="VM" pintype="input"/>
+    </net>
+    <net code="4" name="/MISO">
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="5" name="/MOSI">
+      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="6" name="/PC3_RGB">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/RX">
+      <node ref="A1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="8" name="/SCK">
+      <node ref="J20" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="9" name="/SCL">
+      <node ref="A1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="10" name="/SDA">
+      <node ref="A1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="11" name="/StepSticks/A_DIAG">
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="DIAG" pintype="input"/>
+      <node ref="U3" pin="18" pinfunction="DIAG" pintype="input"/>
+    </net>
+    <net code="12" name="/StepSticks/A_DIR">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="13" name="/StepSticks/A_STEP">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="14" name="/StepSticks/B_DIR">
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="15" name="/StepSticks/B_STEP">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="16" name="/StepSticks/C_DIAG">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="DIAG" pintype="input"/>
+      <node ref="U4" pin="18" pinfunction="DIAG" pintype="input"/>
+    </net>
+    <net code="17" name="/StepSticks/C_DIR">
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="18" name="/StepSticks/C_STEP">
+      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="19" name="/StepSticks/D_DIR">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="20" name="/StepSticks/D_STEP">
+      <node ref="J25" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="21" name="/StepSticks/EN">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="16" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="22" name="/StepSticks/UART">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PND_UART1" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="PND_UART1" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="PND_UART1" pintype="input"/>
+      <node ref="U4" pin="11" pinfunction="PND_UART1" pintype="input"/>
+    </net>
+    <net code="23" name="/TX">
+      <node ref="A1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="24" name="/shield/CLK">
+      <node ref="J16" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="25" name="/shield/DIO">
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="26" name="/shield/NRST">
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="27" name="/shield/PB0">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="28" name="/shield/PB1">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="29" name="/shield/PB5">
+      <node ref="A1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="30" name="/shield/PE0">
+      <node ref="A1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="31" name="/shield/RST">
+      <node ref="J16" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J17" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="32" name="/shield/SWO">
+      <node ref="J16" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J17" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="34" name="GND">
+      <node ref="A1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="A1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J16" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J18" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J19" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J21" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J22" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J23" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J24" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J25" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J26" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J27" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J28" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="38" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(J11-Pad3)">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="40" name="Net-(J11-Pad4)">
+      <node ref="J11" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="41" name="Net-(J12-Pad1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(J12-Pad3)">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="44" name="Net-(J12-Pad4)">
+      <node ref="J12" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="45" name="Net-(J18-Pad3)">
+      <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(J19-Pad3)">
+      <node ref="J19" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J29-Pad1)">
+      <node ref="J29" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="48" name="Net-(J29-Pad2)">
+      <node ref="J29" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="49" name="Net-(J29-Pad3)">
+      <node ref="J29" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="50" name="Net-(J29-Pad4)">
+      <node ref="J29" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="51" name="Net-(J30-Pad1)">
+      <node ref="J30" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="52" name="Net-(J30-Pad2)">
+      <node ref="J30" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="53" name="Net-(J30-Pad3)">
+      <node ref="J30" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="54" name="Net-(J30-Pad4)">
+      <node ref="J30" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="55" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J16-Pad7)">
+      <node ref="J16" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J16-Pad8)">
+      <node ref="J16" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J16-Pad9)">
+      <node ref="J16" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PDN_UART2" pintype="input+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="SPREAD" pintype="input+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="INDEX" pintype="input+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="PDN_UART2" pintype="input+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U2-Pad13)">
+      <node ref="U2" pin="13" pinfunction="SPREAD" pintype="input+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="INDEX" pintype="input+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="PDN_UART2" pintype="input+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="SPREAD" pintype="input+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-Pad17)">
+      <node ref="U3" pin="17" pinfunction="INDEX" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U4-Pad12)">
+      <node ref="U4" pin="12" pinfunction="PDN_UART2" pintype="input+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U4-Pad13)">
+      <node ref="U4" pin="13" pinfunction="SPREAD" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U4-Pad17)">
+      <node ref="U4" pin="17" pinfunction="INDEX" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

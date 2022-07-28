@@ -1,0 +1,18 @@
+Reference, ID, Value, Quantity, Datasheet
+A1 ,,Conn_01x10,1,
+C1 C2 C3 C4 ,6060.0,"C_100u_35V_20%_6,3x7,7",4,https://www.digikey.cz/product-detail/cs/united-chemi-con/EMVA350ADA101MF80G/565-2119-2-ND/756766
+J1 ,,Conn_01x04,1,https://www.digikey.cz/product-detail/en/sullins-connector-solutions/PPPC041LFBN-RC/S7037-ND/810176
+J13 ,,Conn_01x02,1,https://cz.mouser.com/ProductDetail/Samtec/PSS-02-01-T-S?qs=rU5fayqh%252BE33puiMfR3ucw%3D%3D
+J11 J12 J14 J18 J19 J29 J30 ,5487.0,ConnTHT_01x04_70543-0003,7,https://cz.mouser.com/ProductDetail/Molex/70543-0003?qs=%2Fha2pyFaduhkrELsSyc%252bzEvQtAM%2F8u3WZn5u47QKSoI%3D
+J16 ,6183.0,Conn_02x05_Odd_Even_JTAG,1,https://www.tme.eu/cz/details/zl322-2x5p/konektory-hrebinky/connfly/ds1031-08-2-5p8bs-4-1/
+J17 ,,Conn_01x06,1,https://www.digikey.cz/en/products/detail/adam-tech/RS1-06-G/9832050
+J2 ,,Conn_02x04_Counter_Clockwise,1,https://www.digikey.cz/product-detail/cs/harwin-inc/M20-9980445/952-2122-ND/3728086
+J3 J20 J21 J22 J23 J24 J25 ,5489.0,ConnTHT_01x03_70543-0002,7,https://cz.mouser.com/ProductDetail/Molex/70543-0002?qs=%2fha2pyFadujzPVRUxfvEOuNNHPddHlWXzaDuKa1OgFwQERUMCx%2fKZw%3d%3d
+J4 J7 J26 J27 J28 ,5488.0,ConnTHT_01x02_70543-0001,5,https://cz.mouser.com/ProductDetail/Molex/70543-0001?qs=sGAEpiMZZMtVoztFdqDXOwZ%252b3K3gi96X
+J5 ,,Conn_02x07_Counter_Clockwise,1,https://www.digikey.cz/product-detail/en/adam-tech/RS2-14-G/2057-RS2-14-G-ND/9832048
+J6 ,,Conn_01x01,1,
+J8 J10 J15 ,,Conn_01x01,3,https://cz.mouser.com/ProductDetail/Wurth-Elektronik/9774120960R?qs=wr8lucFkNMXsPLUC0UVYng%3D%3D
+J9 ,,Conn_01x05,1,
+JP1 JP2 ,,SolderJumper_3_Open,2,
+R1 R2 ,,100R,2,
+U1 U2 U3 U4 ,,StepStick_TMC2209,4,https://cz.mouser.com/ProductDetail/Trinamic/TMC2209-SilentStepStick?qs=TiOZkKH1s2Q9Tw4q3k2mDw%3D%3D

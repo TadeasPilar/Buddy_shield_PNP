@@ -1,0 +1,382 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6900 2750 2    50   Input ~ 0
+A_DIR
+Text HLabel 6900 2850 2    50   Input ~ 0
+A_STEP
+Text HLabel 6900 3450 2    50   Input ~ 0
+EN
+Text HLabel 6550 3600 3    50   Output ~ 0
+A_DIAG
+$Comp
+L power:GND #PWR039
+U 1 1 60FAF5E5
+P 5750 2500
+F 0 "#PWR039" H 5750 2250 50  0001 C CNN
+F 1 "GND" H 5755 2327 50  0000 C CNN
+F 2 "" H 5750 2500 50  0001 C CNN
+F 3 "" H 5750 2500 50  0001 C CNN
+	1    5750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR036
+U 1 1 60FB2357
+P 5550 2850
+F 0 "#PWR036" H 5550 2700 50  0001 C CNN
+F 1 "+3V3" H 5565 3023 50  0000 C CNN
+F 2 "" H 5550 2850 50  0001 C CNN
+F 3 "" H 5550 2850 50  0001 C CNN
+	1    5550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2850 5550 2850
+Wire Wire Line
+	6000 2750 5900 2750
+Wire Wire Line
+	5900 2750 5900 2350
+Wire Wire Line
+	5900 2350 5750 2350
+Wire Wire Line
+	5750 2350 5750 2500
+Wire Wire Line
+	5250 2950 6000 2950
+Wire Wire Line
+	6000 3050 5250 3050
+Wire Wire Line
+	5250 3150 6000 3150
+Wire Wire Line
+	6000 3250 5250 3250
+$Comp
+L power:GND #PWR033
+U 1 1 60FB9D62
+P 5300 3450
+F 0 "#PWR033" H 5300 3200 50  0001 C CNN
+F 1 "GND" H 5305 3277 50  0000 C CNN
+F 2 "" H 5300 3450 50  0001 C CNN
+F 3 "" H 5300 3450 50  0001 C CNN
+	1    5300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3350 5300 3350
+Wire Wire Line
+	5300 3350 5300 3450
+$Comp
+L power:GND #PWR038
+U 1 1 60FBD684
+P 5700 3350
+F 0 "#PWR038" H 5700 3100 50  0001 C CNN
+F 1 "GND" H 5705 3177 50  0000 C CNN
+F 2 "" H 5700 3350 50  0001 C CNN
+F 3 "" H 5700 3350 50  0001 C CNN
+	1    5700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3350 6000 3350
+Wire Wire Line
+	6000 3450 6000 3700
+Wire Wire Line
+	6000 3700 5900 3700
+Wire Wire Line
+	5900 3700 5900 3550
+$Comp
+L power:+24V #PWR042
+U 1 1 60FBF85D
+P 5900 3550
+F 0 "#PWR042" H 5900 3400 50  0001 C CNN
+F 1 "+24V" H 5915 3723 50  0000 C CNN
+F 2 "" H 5900 3550 50  0001 C CNN
+F 3 "" H 5900 3550 50  0001 C CNN
+	1    5900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Buddy_shield_extractor-rescue:StepStick_TMC2209-dubai_specific_symbols U1
+U 1 1 60CF9E3D
+P 6400 2600
+AR Path="/60CF9E3D" Ref="U1"  Part="1" 
+AR Path="/60F8905A/60CF9E3D" Ref="U1"  Part="1" 
+F 0 "U1" H 6450 2675 50  0000 C CNN
+F 1 "StepStick_TMC2209" H 6450 2584 50  0000 C CNN
+F 2 "harvester:StepStick_TMC2209" H 6400 2600 50  0001 C CNN
+F 3 "https://cz.mouser.com/ProductDetail/Trinamic/TMC2209-SilentStepStick?qs=TiOZkKH1s2Q9Tw4q3k2mDw%3D%3D" H 6400 2600 50  0001 C CNN
+	1    6400 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 6900 2950 2    50   Input ~ 0
+UART
+NoConn ~ 6900 3050
+NoConn ~ 6900 3150
+Wire Wire Line
+	6900 3250 7200 3250
+Wire Wire Line
+	7200 3250 7200 3350
+Wire Wire Line
+	6900 3350 7200 3350
+Connection ~ 7200 3350
+Wire Wire Line
+	7200 3350 7200 3500
+$Comp
+L power:GND #PWR046
+U 1 1 60CFDCFB
+P 7200 3500
+F 0 "#PWR046" H 7200 3250 50  0001 C CNN
+F 1 "GND" H 7205 3327 50  0000 C CNN
+F 2 "" H 7200 3500 50  0001 C CNN
+F 3 "" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+Text HLabel 6950 4550 2    50   Input ~ 0
+B_DIR
+Text HLabel 6950 4650 2    50   Input ~ 0
+B_STEP
+Text HLabel 6950 5250 2    50   Input ~ 0
+EN
+Text HLabel 6600 5400 3    50   Output ~ 0
+B_DIAG
+$Comp
+L power:GND #PWR041
+U 1 1 60D082D6
+P 5800 4300
+F 0 "#PWR041" H 5800 4050 50  0001 C CNN
+F 1 "GND" H 5805 4127 50  0000 C CNN
+F 2 "" H 5800 4300 50  0001 C CNN
+F 3 "" H 5800 4300 50  0001 C CNN
+	1    5800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR037
+U 1 1 60D082DC
+P 5600 4650
+F 0 "#PWR037" H 5600 4500 50  0001 C CNN
+F 1 "+3V3" H 5615 4823 50  0000 C CNN
+F 2 "" H 5600 4650 50  0001 C CNN
+F 3 "" H 5600 4650 50  0001 C CNN
+	1    5600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4650 5600 4650
+Wire Wire Line
+	6050 4550 5950 4550
+Wire Wire Line
+	5950 4550 5950 4150
+Wire Wire Line
+	5950 4150 5800 4150
+Wire Wire Line
+	5800 4150 5800 4300
+Wire Wire Line
+	5300 4750 6050 4750
+Wire Wire Line
+	6050 4850 5300 4850
+Wire Wire Line
+	5300 4950 6050 4950
+Wire Wire Line
+	6050 5050 5300 5050
+$Comp
+L power:GND #PWR034
+U 1 1 60D082F4
+P 5350 5250
+F 0 "#PWR034" H 5350 5000 50  0001 C CNN
+F 1 "GND" H 5355 5077 50  0000 C CNN
+F 2 "" H 5350 5250 50  0001 C CNN
+F 3 "" H 5350 5250 50  0001 C CNN
+	1    5350 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5150 5350 5150
+Wire Wire Line
+	5350 5150 5350 5250
+$Comp
+L power:GND #PWR040
+U 1 1 60D082FC
+P 5750 5150
+F 0 "#PWR040" H 5750 4900 50  0001 C CNN
+F 1 "GND" H 5755 4977 50  0000 C CNN
+F 2 "" H 5750 5150 50  0001 C CNN
+F 3 "" H 5750 5150 50  0001 C CNN
+	1    5750 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5150 6050 5150
+Wire Wire Line
+	6050 5250 6050 5500
+Wire Wire Line
+	6050 5500 5950 5500
+Wire Wire Line
+	5950 5500 5950 5350
+$Comp
+L power:+24V #PWR043
+U 1 1 60D08306
+P 5950 5350
+F 0 "#PWR043" H 5950 5200 50  0001 C CNN
+F 1 "+24V" H 5965 5523 50  0000 C CNN
+F 2 "" H 5950 5350 50  0001 C CNN
+F 3 "" H 5950 5350 50  0001 C CNN
+	1    5950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Buddy_shield_extractor-rescue:StepStick_TMC2209-dubai_specific_symbols U2
+U 1 1 60D0830C
+P 6450 4400
+AR Path="/60D0830C" Ref="U2"  Part="1" 
+AR Path="/60F8905A/60D0830C" Ref="U2"  Part="1" 
+F 0 "U2" H 6500 4475 50  0000 C CNN
+F 1 "StepStick_TMC2209" H 6500 4384 50  0000 C CNN
+F 2 "harvester:StepStick_TMC2209" H 6450 4400 50  0001 C CNN
+F 3 "https://cz.mouser.com/ProductDetail/Trinamic/TMC2209-SilentStepStick?qs=TiOZkKH1s2Q9Tw4q3k2mDw%3D%3D" H 6450 4400 50  0001 C CNN
+	1    6450 4400
+	1    0    0    -1  
+$EndComp
+Text HLabel 6950 4750 2    50   Input ~ 0
+UART
+NoConn ~ 6950 4850
+NoConn ~ 6950 4950
+Wire Wire Line
+	6950 5050 7250 5050
+$Comp
+L power:GND #PWR047
+U 1 1 60D0831A
+P 7250 5300
+F 0 "#PWR047" H 7250 5050 50  0001 C CNN
+F 1 "GND" H 7255 5127 50  0000 C CNN
+F 2 "" H 7250 5300 50  0001 C CNN
+F 3 "" H 7250 5300 50  0001 C CNN
+	1    7250 5300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6450 3600
+NoConn ~ 6500 5400
+$Comp
+L prusa_other:C_100u_35V_20%_6,3x7,7 C1
+U 1 1 60D2896C
+P 5700 1700
+F 0 "C1" H 5788 1774 50  0000 L CNN
+F 1 "C_100u_35V_20%_6,3x7,7" H 5700 1450 50  0001 L CNN
+F 2 "prusa_other:c_elec_6.3x7.7" H 5700 1525 50  0001 C CNN
+F 3 "https://www.digikey.cz/product-detail/cs/united-chemi-con/EMVA350ADA101MF80G/565-2119-2-ND/756766" H 5700 1700 50  0001 C CNN
+F 4 "35V/20%" H 5788 1700 28  0000 L CNN "req"
+F 5 "100u" H 5788 1626 50  0000 L CNN "part_value"
+F 6 "6060" H 5875 1775 50  0001 C CNN "ID"
+	1    5700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L prusa_other:C_100u_35V_20%_6,3x7,7 C2
+U 1 1 60D29925
+P 6300 1700
+F 0 "C2" H 6388 1774 50  0000 L CNN
+F 1 "C_100u_35V_20%_6,3x7,7" H 6300 1450 50  0001 L CNN
+F 2 "prusa_other:c_elec_6.3x7.7" H 6300 1525 50  0001 C CNN
+F 3 "https://www.digikey.cz/product-detail/cs/united-chemi-con/EMVA350ADA101MF80G/565-2119-2-ND/756766" H 6300 1700 50  0001 C CNN
+F 4 "35V/20%" H 6388 1700 28  0000 L CNN "req"
+F 5 "100u" H 6388 1626 50  0000 L CNN "part_value"
+F 6 "6060" H 6475 1775 50  0001 C CNN "ID"
+	1    6300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR035
+U 1 1 60D2C85D
+P 5400 1550
+F 0 "#PWR035" H 5400 1400 50  0001 C CNN
+F 1 "+24V" H 5415 1723 50  0000 C CNN
+F 2 "" H 5400 1550 50  0001 C CNN
+F 3 "" H 5400 1550 50  0001 C CNN
+	1    5400 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1550 5700 1550
+$Comp
+L power:GND #PWR044
+U 1 1 60D2C073
+P 6850 1850
+F 0 "#PWR044" H 6850 1600 50  0001 C CNN
+F 1 "GND" H 6855 1677 50  0000 C CNN
+F 2 "" H 6850 1850 50  0001 C CNN
+F 3 "" H 6850 1850 50  0001 C CNN
+	1    6850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1850 6300 1850
+Wire Wire Line
+	5700 1800 5700 1850
+Wire Wire Line
+	6300 1800 6300 1850
+Connection ~ 6300 1850
+Wire Wire Line
+	6300 1850 6850 1850
+Wire Wire Line
+	6300 1550 6300 1600
+Wire Wire Line
+	5700 1600 5700 1550
+Connection ~ 5700 1550
+Wire Wire Line
+	5700 1550 6300 1550
+Wire Wire Line
+	7250 5050 7250 5300
+Wire Wire Line
+	6950 5150 7100 5150
+$Comp
+L power:+3V3 #PWR045
+U 1 1 60D68ADC
+P 7100 5150
+F 0 "#PWR045" H 7100 5000 50  0001 C CNN
+F 1 "+3V3" H 7115 5323 50  0000 C CNN
+F 2 "" H 7100 5150 50  0001 C CNN
+F 3 "" H 7100 5150 50  0001 C CNN
+	1    7100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L prusa_con:Conn_01x04_5025840460 J29
+U 1 1 60E0FC6E
+P 5050 3150
+F 0 "J29" H 4968 3623 50  0000 C CNN
+F 1 "Conn_01x04_5025840460" H 5050 2850 50  0001 C CNN
+F 2 "prusa_con:MX-502584-0460" H 5050 2750 50  0001 C CNN
+F 3 "https://www.digikey.cz/product-detail/cs/molex/5054050470/WM12858CT-ND/5845702" H 5200 2650 50  0001 C CNN
+F 4 "ClickMate/2A/100V/Vertical" H 4968 3549 28  0000 C CNN "req"
+F 5 "5025840460" H 4968 3475 50  0000 C CNN "part_value"
+F 6 "6176" H 5175 3575 50  0001 C CNN "ID"
+	1    5050 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L prusa_con:Conn_01x04_5025840460 J30
+U 1 1 60E10DD8
+P 5100 4950
+F 0 "J30" H 5018 5423 50  0000 C CNN
+F 1 "Conn_01x04_5025840460" H 5100 4650 50  0001 C CNN
+F 2 "prusa_con:MX-502584-0460" H 5100 4550 50  0001 C CNN
+F 3 "https://www.digikey.cz/product-detail/cs/molex/5054050470/WM12858CT-ND/5845702" H 5250 4450 50  0001 C CNN
+F 4 "ClickMate/2A/100V/Vertical" H 5018 5349 28  0000 C CNN "req"
+F 5 "5025840460" H 5018 5275 50  0000 C CNN "part_value"
+F 6 "6176" H 5225 5375 50  0001 C CNN "ID"
+	1    5100 4950
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

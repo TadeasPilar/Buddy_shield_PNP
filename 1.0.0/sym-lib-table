@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Buddy_shield_extractor-rescue")(type "Legacy")(uri "${KIPRJMOD}/Buddy_shield_extractor-rescue.lib")(options "")(descr ""))
+)

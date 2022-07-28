@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "buddy_shield")(type "KiCad")(uri "${KIPRJMOD}/buddy_shield.pretty")(options "")(descr ""))
+  (lib (name "harvester")(type "KiCad")(uri "/home/tadeas/prusa/dubai-boards/harvester/0.4.0/harvester.pretty")(options "")(descr ""))
+)
